@@ -3,3 +3,5 @@
 cd /usr/share/nginx/html/
 env/bin/initialize_pyramid_blogr_db development.ini 
 
+# reset permissions
+chown -R www-data:www-data pyramid_blogr.sqlite
